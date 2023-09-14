@@ -23,7 +23,7 @@ public class ReportService {
 
     public String exportReport(String reportFormat) throws FileNotFoundException, JRException {
 
-        String path = "/home/hiran/Desktop/Report";
+        String path = "/home/hiran/Desktop";
         List<Employee> employeeList = employeeRepository.findAll();
 
         //Load file and compile it
