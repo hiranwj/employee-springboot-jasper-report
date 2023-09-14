@@ -1,0 +1,7 @@
+## copy and paste these urls for generate pdf file
+
+// for get employees
+http://localhost:9090/getEmployees
+
+// for export pdf
+http://localhost:9090/report/pdf
